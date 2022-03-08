@@ -53,9 +53,10 @@ ul li a::before {
   content: attr(data-text);
   position: absolute;
   color: #fff;
-  width: 10%;
+  width: 0;
   overflow: hidden;
   transition: 1s;
+  border-right: 8px solid #fff;
 }
 
 ul li a:hover::before {
