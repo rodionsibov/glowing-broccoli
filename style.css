@@ -40,7 +40,11 @@ ul li {
 ul li a {
   position: relative;
   font-size: 4em;
+  font-weight: bold;
   text-decoration: none;
   line-height: 1em;
   letter-spacing: 2px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 }
