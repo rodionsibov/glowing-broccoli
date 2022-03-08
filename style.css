@@ -48,3 +48,16 @@ ul li a {
   color: transparent;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 }
+
+ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #fff;
+  width: 10%;
+  overflow: hidden;
+  transition: 1s;
+}
+
+ul li a:hover::before {
+  width: 100%;
+}
